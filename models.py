@@ -11,7 +11,7 @@ with open('config.json') as config_file:
 class Tour(Model):
     id = fields.IntField(pk=True)
     name = fields.TextField()
-    data = fields.JSONField()
+    data = fields.JSONField(default=dict)
 
     def __str__(self):
         return self.name

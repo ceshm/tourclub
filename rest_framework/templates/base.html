@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+
+<h1>{{ serializer.meta.model.__name__ }}</h1>
+
+<p>Urls:</p>
+
+{{ path }}
+
+current objects:
+<ul></ul>
+{% for object in objects %}
+    <li>{{ object.name }}</li>
+{% endfor %}
+
+{{ serializer.get_data() }}
+
+</ul>
+
+</body>
+
+</html>
