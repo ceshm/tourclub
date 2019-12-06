@@ -18,6 +18,10 @@ class ModelSerializer:
 
         return data
 
+
+    def get_model_name(self):
+        return self.meta.model.__name__
+
     def decode(self):
         pass
 

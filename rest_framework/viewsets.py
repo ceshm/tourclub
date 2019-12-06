@@ -25,4 +25,4 @@ class ModelViewSet(GenericView):
         serializer_meta = self.serializer_class.Meta()
         serializer.meta = serializer_meta
 
-        return templates.TemplateResponse("base.html", {'request': request, "objects": objects, "serializer": serializer})
+        return templates.TemplateResponse("generic.html", {'request': request, "serializer": serializer})
