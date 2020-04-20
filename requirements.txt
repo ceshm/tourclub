@@ -6,7 +6,7 @@ h11==0.8.1
 httptools==0.0.13
 PyPika==0.35.15
 starlette==0.12.13
-tortoise-orm==0.14.2
+tortoise-orm==0.15.23
 typing-extensions==3.7.4.1
 uvicorn==0.10.4
 uvloop==0.14.0rc2
