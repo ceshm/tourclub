@@ -8,6 +8,6 @@ PyPika==0.35.15
 starlette==0.12.13
 tortoise-orm==0.14.2
 typing-extensions==3.7.4.1
-uvicorn==0.10.4
+uvicorn==0.11.7
 uvloop==0.14.0rc2
 websockets==8.1
