@@ -10,4 +10,4 @@ tortoise-orm==0.14.2
 typing-extensions==3.7.4.1
 uvicorn==0.10.4
 uvloop==0.14.0rc2
-websockets==8.1
+websockets==9.1
